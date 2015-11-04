@@ -1,0 +1,106 @@
+[
+    {
+        "artist_id": 1,
+        "session_id": 1,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 67,
+        "videoIsActive": false,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 1,
+        "session_id": 2,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 125,
+        "videoIsActive": false,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 1,
+        "session_id": 3,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": true,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 2,
+        "session_id": 3,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": true,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 3,
+        "session_id": 3,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": false,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 4,
+        "session_id": 2,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 225,
+        "videoIsActive": false,
+        "videoIsWinner": true
+    },
+    {
+        "artist_id": 4,
+        "session_id": 3,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": true,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 5,
+        "session_id": 2,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 200,
+        "videoIsActive": false,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 5,
+        "session_id": 3,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": true,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 6,
+        "session_id": 3,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": true,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 7,
+        "session_id": 3,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": false,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 7,
+        "session_id": 4,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": false,
+        "videoIsWinner": false
+    },
+    {
+        "artist_id": 8,
+        "session_id": 3,
+        "videoLink": "https://www.youtube.com/embed/nqZEhQTwIZ4",
+        "videoVotes": 0,
+        "videoIsActive": true,
+        "videoIsWinner": false
+    }
+]

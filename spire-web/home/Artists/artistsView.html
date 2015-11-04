@@ -1,0 +1,31 @@
+<div id="artists-view" class="center-block">
+	<h1>Artists</h1>
+	<div class="container center-block">
+		<div class="row artist-row" ng-repeat="artist in artists">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-2">
+				<div class="center-block">
+					<a href="{{artist.artistLink}}" target="_blank">
+						<img class="artist-img" ng-src="{{artist.img_url}}"></img>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="center-block">
+					<a class="artist-link" href="{{artist.artistLink}}" target="_blank">
+						{{artist.name}}
+					</a>
+					<br>
+					fb, twt, & web 
+				</div>
+			</div>
+			<div class="col-sm-5">
+				<div class="center-block">
+					<h4>Bio</h4>
+					<p>{{artist.bio}}</p>
+				</div>
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+	</div>
+</div>

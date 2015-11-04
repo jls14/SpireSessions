@@ -1,0 +1,32 @@
+<div class="session-video center-block voted-{{video.vote}} video-hovering-false" video-hover ng-click="broadcastArtist();">
+  <div class="vid-hover-size">
+  	<div class="artist-hover">
+  		<a ng-click="broadcastArtist();">
+  			<img  ng-src="{{::artist.img_url}}"></img>
+  		</a>
+    	<a class="artist-vid-link link" ng-click="broadcastArtist();">
+    		{{::artist.name}}
+    	</a>
+    </div>
+  </div>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" ng-src="{{::video.iframe_url}}" onplay="alert('hey')"></iframe>
+  </div>
+  <div class="vid-hover-size pull-right">
+  	<div class="vote-hover">
+	  	<iframe frameborder="0" 
+	  			class="fb-share-btn"
+	  			allowtransparency="true" 
+	  			allowfullscreen="true" 
+	  			scrolling="no" 
+	  			title="fb:share_button Facebook Social Plugin" 
+	  			ng-src="{{::video.getFbShareSrc(artist.name)}}"></iframe>
+    	<a class="vote-link pull-right link" ng-click="voteForVideo();">
+    		<span class="vote-count">{{video.votes}}</span>
+    		Vote
+    		<span class="glyphicon {{getStarGlyphicon()}}"></span>
+    	</a>
+  	</div>
+  </div>
+  <div class="clearfix"></div>
+</div>

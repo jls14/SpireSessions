@@ -1,0 +1,574 @@
+Saturday 17th of October 2015 09:32:52 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 09:32:52 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 09:32:52 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 09:32:52 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 09:32:52 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 09:32:52 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 09:32:53 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 09:32:53 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:04:14 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Saturday 17th of October 2015 11:04:14 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Saturday 17th of October 2015 11:04:14 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Saturday 17th of October 2015 11:04:14 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Saturday 17th of October 2015 11:04:14 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Saturday 17th of October 2015 11:04:14 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Saturday 17th of October 2015 11:04:14 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Saturday 17th of October 2015 11:04:14 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Saturday 17th of October 2015 11:04:31 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:04:31 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:04:31 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:04:31 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:04:31 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:04:31 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:04:31 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:04:31 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:04:31 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:04:31 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:04:31 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:04:31 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:04:31 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:04:31 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:04:31 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:04:31 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:09:32 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:09:32 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:09:32 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:09:32 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:09:32 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:09:32 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:09:32 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:09:32 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:11:15 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:11:15 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:11:15 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:11:15 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:12:02 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:12:02 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:12:03 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:12:03 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:19:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:19:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:19:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:19:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:19:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:19:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:19:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:19:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:20:45 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:20:45 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:20:46 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:20:46 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:20:47 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:20:47 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:20:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:20:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:30:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:30:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:30:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:30:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:30:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:30:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:30:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:30:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:34:47 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:34:47 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:34:47 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:34:47 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:34:48 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:34:48 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:34:54 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:34:54 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:34:54 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:34:54 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:34:55 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:34:55 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:34:56 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:34:56 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:35:14 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:35:14 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:35:15 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:35:15 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:35:15 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:35:15 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:35:15 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:35:15 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:44:12 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:44:12 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:44:12 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:44:12 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:44:13 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:44:13 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:44:13 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:44:13 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:48:03 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:48:03 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:48:03 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:48:03 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:48:03 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:48:03 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:48:03 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:48:03 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:52:07 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:52:07 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:52:07 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:52:07 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:52:07 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:52:07 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:52:07 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:52:07 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:53:09 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:53:09 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:53:09 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:53:09 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:53:09 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:53:09 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:53:09 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:53:09 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:54:28 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:54:28 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:54:28 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:54:28 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:54:28 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:54:28 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:55:09 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:55:09 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:55:52 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:55:52 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:55:52 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:55:52 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:55:52 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:55:52 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 11:55:52 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 11:55:52 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:00:32 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:00:32 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:00:32 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:00:32 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:00:32 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:00:32 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:00:32 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:00:32 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:01:12 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:01:12 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:01:12 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:01:12 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:01:12 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:01:12 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:01:13 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:01:13 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:01:25 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:01:25 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:01:26 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:01:26 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:01:27 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:01:27 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:01:27 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:01:27 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:10:30 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:10:30 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:10:30 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:10:30 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:10:30 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:10:30 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:10:30 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:10:30 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:13:14 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:13:14 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:13:14 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:13:14 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:13:14 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:13:14 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:13:14 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:13:14 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:14:16 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:14:16 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:14:17 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:14:17 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:14:28 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:14:28 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:14:28 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:14:28 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:14:31 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:14:31 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:14:31 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:14:31 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:25:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:25:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:25:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:25:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:25:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:25:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:25:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:25:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:26:46 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:26:46 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:26:46 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:26:46 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:26:46 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:26:46 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:26:46 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:26:46 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:27:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:27:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:27:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:27:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:27:10 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:27:10 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:27:10 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:27:10 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:27:49 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:27:49 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:27:50 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:27:50 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:27:50 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:27:50 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:27:50 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:27:50 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:29:31 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:29:31 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:29:31 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:29:31 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:29:32 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:29:32 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:29:32 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:29:32 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:37:06 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:37:06 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:37:06 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:37:06 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:37:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:37:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:37:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:37:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:37:36 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:37:36 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:37:36 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:37:36 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:37:36 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:37:36 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:37:36 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:37:36 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:42:31 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:42:31 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:42:31 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:42:31 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:42:31 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:42:32 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:42:32 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:42:32 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:12 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:12 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:13 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:13 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:13 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:13 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:14 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:14 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:38 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:38 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:38 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:38 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:38 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:38 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:39 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:39 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:48 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:48 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:49 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:49 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:50 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:50 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:46:51 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:46:51 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:51:11 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:51:11 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:51:11 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:51:11 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:51:11 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:51:11 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:51:11 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:51:11 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:54:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:54:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:54:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:54:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:54:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:54:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:54:38 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:54:38 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:54:47 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:54:47 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:54:47 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:54:47 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:00 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:00 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:00 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:00 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:17 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:17 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:17 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:17 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:17 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:17 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 12:55:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 12:55:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:13:03 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:13:03 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:13:03 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:13:03 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:13:03 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:13:03 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:13:04 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:13:04 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:31:26 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:31:26 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:31:27 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:31:27 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:31:27 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:31:27 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:31:27 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:31:27 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:36:15 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:36:15 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:36:15 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:36:15 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:36:16 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:36:16 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:36:17 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:36:17 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:38:36 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:38:36 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:38:36 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:38:36 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:38:36 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:38:36 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:38:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:38:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:38:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:38:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:38:56 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:38:56 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:38:56 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:38:56 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:38:56 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:38:56 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:39:44 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:39:44 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:39:44 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:39:44 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:39:44 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:39:44 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:39:44 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:39:44 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:40:12 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:40:12 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:40:12 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:40:12 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:40:52 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:40:52 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:40:53 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:40:53 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:44:24 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:44:24 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:44:24 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:44:24 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:44:24 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:44:24 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:44:24 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:44:24 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:44:33 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:44:33 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:44:33 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:44:33 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:44:33 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:44:33 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:44:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:44:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:45:40 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:45:40 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:45:40 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:45:40 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:45:40 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:45:40 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:45:40 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:45:40 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:47:57 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:47:57 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:47:57 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:47:57 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:47:57 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:47:57 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:47:57 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:47:57 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:48:44 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:48:44 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:48:44 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:48:44 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:48:44 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:48:44 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:48:44 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:48:44 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:49:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:49:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:49:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:49:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:49:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:49:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:49:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:49:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:51:15 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:51:15 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:51:15 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:51:15 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:51:15 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:51:15 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:51:15 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:51:15 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:54:59 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:54:59 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:54:59 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:54:59 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:54:59 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:54:59 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 01:54:59 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 01:54:59 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:04:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:04:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:04:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:04:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:04:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:04:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:04:35 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:04:35 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:09:34 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:09:34 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:09:35 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:09:35 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:09:35 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:09:35 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:09:36 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:09:36 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:11:06 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:11:06 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:11:06 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:11:06 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:11:06 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:11:06 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:11:06 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:11:06 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:12:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:12:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:12:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:12:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:12:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:12:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:12:19 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:12:19 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:25:35 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:25:35 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:25:35 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:25:35 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:25:35 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:25:35 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:25:35 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:25:35 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:33:05 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:33:05 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:33:05 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:33:05 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:33:05 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:33:05 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:33:05 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:33:05 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:33:50 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:33:50 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:33:50 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:33:50 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:33:50 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:33:50 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:33:51 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:33:51 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:53:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:53:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:53:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:53:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:53:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:53:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 02:53:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 02:53:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 03:15:33 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 03:15:33 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 07:42:25 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 07:42:25 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 08:55:28 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 08:55:28 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 08:55:29 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 08:55:29 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 08:55:29 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 08:55:29 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Saturday 17th of October 2015 08:55:30 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Saturday 17th of October 2015 08:55:30 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Wednesday 21st of October 2015 02:15:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Wednesday 21st of October 2015 02:15:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Wednesday 21st of October 2015 02:15:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Wednesday 21st of October 2015 02:15:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Wednesday 21st of October 2015 02:15:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Wednesday 21st of October 2015 02:15:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Wednesday 21st of October 2015 02:15:54 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Wednesday 21st of October 2015 02:15:54 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Thursday 22nd of October 2015 12:13:18 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Thursday 22nd of October 2015 12:13:18 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Thursday 22nd of October 2015 12:13:21 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Thursday 22nd of October 2015 12:13:21 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Thursday 22nd of October 2015 12:13:22 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Thursday 22nd of October 2015 12:13:22 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Thursday 22nd of October 2015 12:13:23 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 3
+Thursday 22nd of October 2015 12:13:23 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 3   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 3)
+Wednesday 28th of October 2015 03:45:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Wednesday 28th of October 2015 03:45:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Wednesday 28th of October 2015 03:45:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Wednesday 28th of October 2015 03:45:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Wednesday 28th of October 2015 03:45:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Wednesday 28th of October 2015 03:45:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Wednesday 28th of October 2015 03:45:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Wednesday 28th of October 2015 03:45:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Wednesday 28th of October 2015 08:18:07 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 8
+Wednesday 28th of October 2015 08:18:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 8   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 8)
+Wednesday 28th of October 2015 08:18:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 8
+Wednesday 28th of October 2015 08:18:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 8   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 8)
+Wednesday 28th of October 2015 08:18:08 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 8
+Wednesday 28th of October 2015 08:18:08 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 8   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 8)
+Wednesday 28th of October 2015 08:18:09 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 8
+Wednesday 28th of October 2015 08:18:09 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 8   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 8)
+Monday 2nd of November 2015 08:57:50 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 8
+Monday 2nd of November 2015 08:57:50 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 8   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 8)
+Monday 2nd of November 2015 08:57:50 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 8
+Monday 2nd of November 2015 08:57:50 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 8   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 8)
+Monday 2nd of November 2015 08:57:50 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 8
+Monday 2nd of November 2015 08:57:50 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 8   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 8)
+Monday 2nd of November 2015 08:57:50 AM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 8
+Monday 2nd of November 2015 08:57:50 AM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 8   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 8)
+Monday 2nd of November 2015 06:34:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Monday 2nd of November 2015 06:34:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Monday 2nd of November 2015 06:34:37 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Monday 2nd of November 2015 06:34:37 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Monday 2nd of November 2015 06:34:38 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Monday 2nd of November 2015 06:34:38 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)
+Monday 2nd of November 2015 06:34:38 PM : SELECT COALESCE(winner_video_id, 0) as winner_video_id FROM spire.SESSIONS WHERE id = 7
+Monday 2nd of November 2015 06:34:38 PM :  SELECT COALESCE(id, 0) as winner_video_id  FROM spire.videos  WHERE session_id = 7   AND votes = (SELECT MAX(votes) FROM spire.videos WHERE session_id = 7)

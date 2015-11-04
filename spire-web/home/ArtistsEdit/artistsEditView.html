@@ -1,0 +1,14 @@
+<!--artistsAdminView.html-->
+<div>
+	<ul class="nav nav-tabs">
+  		<li role="presentation" class="{{getActiveClass(tab)}}" ng-repeat="tab in tabLinks" ng-click="setActiveTab(tab)">
+  			<a href="">{{tab.title}}</a>
+  		</li>
+	</ul>
+
+	<div class="tab-body" 
+		 ng-repeat     = "tab in tabLinks"
+		 ng-include    = "tab.templateUrl" 
+		 ng-show       = "isActiveTab(tab)">
+	</div>
+</div>

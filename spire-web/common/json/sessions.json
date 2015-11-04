@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "name": null,
+        "description": null,
+        "is_active": false,
+        "start_ts": "12/5/2014",
+        "end_ts": "12/10/2014",
+        "area": null,
+        "is_active": false,
+        "winner_video_id": null,
+        "updated_by": null,
+        "updated_ts": null
+    },
+    {
+        "id": 2,
+        "area": 1,
+        "start_ts": "12/5/2014",
+        "end_ts": "12/10/2014",
+        "is_active": false,
+        "winner_video_id": null,
+        "updated_by": null,
+        "updated_ts": null
+    },
+    {
+        "id": 3,
+        "area": 1,
+        "start_ts": "5/11/2015",
+        "end_ts": "5/25/2015",
+        "is_active": true,
+        "winner_video_id": null,
+        "updated_by": null,
+        "updated_ts": null
+    },
+    {
+        "id": 4,
+        "area": 2,
+        "start_ts": "6/1/2015",
+        "end_ts": "6/10/2015",
+        "is_active": false,
+        "winner_video_id": null,
+        "updated_by": null,
+        "updated_ts": null
+    },
+    {
+        "id": 5,
+        "area": 1,
+        "start_ts": "6/15/2015",
+        "end_ts": "6/25/2015",
+        "is_active": false,
+        "winner_video_id": null,
+        "updated_by": null,
+        "updated_ts": null
+    }
+]

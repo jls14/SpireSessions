@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "sessionArea": 1,
+        "sessionStartDate": "12/5/2014",
+        "sessionEndDate": "12/10/2014",
+        "sessionActive": false
+    },
+    {
+        "id": 2,
+        "sessionArea": 1,
+        "sessionStartDate": "12/5/2014",
+        "sessionEndDate": "12/10/2014",
+        "sessionActive": false
+    },
+    {
+        "id": 3,
+        "sessionArea": 1,
+        "sessionStartDate": "5/11/2015",
+        "sessionEndDate": "5/25/2015",
+        "sessionActive": true
+    },
+    {
+        "id": 4,
+        "sessionArea": 2,
+        "sessionStartDate": "6/1/2015",
+        "sessionEndDate": "6/10/2015",
+        "sessionActive": false
+    },
+    {
+        "id": 5,
+        "sessionArea": 1,
+        "sessionStartDate": "6/15/2015",
+        "sessionEndDate": "6/25/2015",
+        "sessionActive": false
+    }
+]

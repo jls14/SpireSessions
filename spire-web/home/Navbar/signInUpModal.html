@@ -1,0 +1,52 @@
+<div ng-if="type === 'in' || type === 'error' || (type === 'up' && !isConnected())" >
+	<div class="fb-modal-header modal-header">
+	    <h3 class="modal-title">Join the Session</h3>
+	    <span id="modal-close" 
+	    	  class="glyphicon glyphicon-remove pull-right"
+	    	  ng-click="close()"></span>
+	</div>
+	<div class="modal-body">
+		<div ng-if="type === 'error' || (type === 'up' && isConnected())" class="panel panel-warning">
+			<div class="panel-heading">
+				<span class="glyphicon glyphicon-warning-sign"></span>
+				Login Required
+			</div>
+		</div>
+		<button id="fb-login-btn" class="btn btn-lg btn-primary center-block" ng-click="signIn();">
+			Facebook Sign In
+		</button>
+	</div>
+</div>
+<div ng-if="type === 'up' && isConnected()" >
+	<div class="fb-modal-header modal-header">
+	    <h3 class="modal-title">Artist Sign Up</h3>
+	    <span id="modal-close" 
+	    	  class="glyphicon glyphicon-remove pull-right"
+	    	  ng-click="close()"></span>
+	</div>
+	<div class="modal-body">
+		<div ng-if="signUpResult.show" class="panel panel-{{signUpResult.class}}">
+			<div class="panel-heading">{{signUpResult.message}}</div>
+		</div>
+		<ul class="list-group">
+			<li class="list-group-item" ng-repeat="fieldKey in  fieldsOrder" ng-init="field = fields[fieldKey]">
+				<div class="input-group admin-input-group" ng-if="field.tag == 'input'">
+					<span class="input-group-addon label-addon">{{field.label}}</span>
+					<input ng-if="field.type != 'checkbox'" class="form-control" ng-model="newArtist[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}"></input>
+					<span  ng-if="field.type == 'checkbox'" class="input-group-addon">
+						<input ng-model="newArtist[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}"></input>
+					</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="modal-footer">
+		<div ng-if="!signUpResult.show">
+			<button class="btn btn-md btn-danger"  ng-click="close();">Cancel</button>
+			<button class="btn btn-md btn-success" ng-click="submit();">Submit</button>
+		</div>
+		<div ng-if="signUpResult.show">
+			<button class="btn btn-md btn-success"  ng-click="close();">Done</button>
+		</div>
+	</div>
+</div>

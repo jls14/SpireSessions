@@ -1,0 +1,84 @@
+    <div id="video-admin" class="center-block" ng-controller="EditVideosCtrl">
+        <div class="row" ng-if="showView();" >
+            <div class="admin-edit col-md-6">
+                <h3>Video List</h3>
+                <div class="list-group">
+                    <button type="button" class="{{isActiveClass(createVideo.id);}} list-group-item full-width" ng-click="setVideoToEdit(createVideo)">
+                        <span class="glyphicon glyphicon-plus"></span>
+                        Create New Video
+                    </button>
+                    <button type="button" class="{{isActiveClass(sess.id);}} list-group-item full-width" ng-click="setVideoToEdit(sess);" ng-repeat="sess in videos" >{{::sess.id + "-" + sess.name}}</button>
+                </div>
+                <div class="list-group center-block" ng-if="isListLoading">
+                    <img class="center-block" height="40" src="../common/images/lg-snake-loader.gif"/>
+                </div>
+            </div>
+            <div class="admin-edit col-md-6">
+                <h3>Edit Video</h3>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="fieldKey in getFieldsOrder()" ng-init="field = fields[fieldKey]">
+                        <p ng-if="fields[field].tag == 'p'"><label class="badge">{{fields[field].label + ": " + videoToEdit[field]}}</p>
+                        <div class="input-group admin-input-group" ng-if="field.tag != 'p'">
+                            <span class="input-group-addon label-addon">{{field.label}}</span>
+                            <input ng-if="field.tag == 'input' && field.type != 'checkbox' && field.type != 'file'" 
+                                   class="form-control" 
+                                   ng-model="videoToEdit[fieldKey]"   
+                                   placeholder="{{field.label}}"
+                                   ng-disabled="field.type=='disabled'" 
+                                   type="{{field.type}}"></input>
+                            <span  ng-if="field.tag == 'input' && field.type == 'checkbox'" class="input-group-addon">
+                                <input ng-model="videoToEdit[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}" ng-disabled="field.type=='disabled'"></input>
+                            </span>
+                            <select ng-if="field.tag == 'select'" 
+                                    class="form-control" 
+                                    ng-model="videoToEdit[fieldKey]"
+                                    ng-disabled="field.type=='disabled'" 
+                                    ng-options="opt.id as opt.id + '-' + opt.name for opt in field.options">
+                                <option value="">Select {{::field.label}}</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div ng-if="isNewVideo()">
+                            <input class="btn btn-default full-width"
+                                    ngf-select
+                                    type="file"
+                                    ng-model="videoToUpload" 
+                                    name="videoToUpload" 
+                                    ngf-pattern="'video/*'"
+                                    accept="video/*" 
+                                    ngf-max-size="100MB"
+                                    ng-disabled="field.type=='disabled'" 
+                                    ngf-min-height="100" 
+                                    ngf-resize="{width: 150, height: 100}">
+                            </input>
+                            <button class="btn btn-success center-block top-margin-10" ng-click="updateVideo(videoToUpload)">Submit New Video</button>
+                        </div>
+                        <div ng-if="!isNewVideo()">
+                            <button class="btn btn-success" ng-click="updateVideo(videoToUpload)">Submit</button>
+                            <button class="btn btn-danger"  ng-click="deleteVideo($index);" ng-if="!isNewVideo();">Remove</button>
+                            <button class="btn btn-info"    ng-click="previewVideo($index)" ng-if="!isNewVideo();">
+                                <span ng-if="!previewVideos[$index]">Show Video</span>
+                                <span ng-if="previewVideos[$index]">Hide Video</span>
+                            </button>
+                        </div>
+                    </li>
+                    <li class="list-group-item center-block" ng-if="isSubmLoading">
+                        <img class="center-block" height="40" src="../common/images/lg-snake-loader.gif"/>
+                    </li>
+                </ul>
+                <div ng-if="previewVideos[$index]">
+                    <div class="panel panel-danger" ng-if="videoToEdit.iframe_url.length == 0" class="admin-video-preview-error">
+                        <div class="panel-heading">
+                            Please enter a valid Iframe URL
+                        </div>
+                    </div>
+                    <div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" ng-src="{{sanitize(videoToEdit.iframe_url)}}" onplay="alert('hey')"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

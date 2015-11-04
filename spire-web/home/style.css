@@ -1,0 +1,294 @@
+/* Put your css in here */
+html {
+	background-color: #eee;
+}
+
+#body {
+	min-width: 300px;
+	background-color: inherit;
+}
+
+#spire-body {
+	margin-top:50px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1050px;
+}
+
+#spire-nav {
+	max-width: 1050px;
+}
+
+/*SessionView*/
+#session-countdown {
+	text-align: center;
+}
+
+#session-videos-body {
+	max-width: 800px;
+	padding:5px;
+}
+
+.session-video {
+	padding: 1px;
+	margin: 5px;
+}
+
+/*VideoView*/
+.youtube-video {
+	padding: 2px;
+	background-color: #222;
+	margin: 2px;
+	border-radius: 5px;
+	width:244px;
+}
+
+.vote-count{
+	background-color:#333;
+	color:white;
+	border-radius:8px;
+	padding:4px
+}
+
+.vid-hover-size{
+	border-radius: 0px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	min-width:150px;
+	height: 45px;
+	width: 85%;
+}
+
+.vote-hover, 
+.artist-hover {
+	display:none;
+	background-color:#fff;
+	border-color:#fff;
+	border-width:1px;
+	height:100%;
+	padding:2px;
+	margin:2px;
+}
+
+.vote-hover > div.fb-like{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+.artist-vid-link,
+.vote-link{
+	line-height:40px;
+	font-size:17px;
+	font-weight:bold;
+	font-style:bold;
+	vertical-align:middle;
+}
+
+.vote-link > .glyphicon{
+	font-size:25px;
+	vertical-align:middle;
+}
+
+.artist-hover > a > img{
+	height:35px;
+	width:35px;
+	border-radius:100px;
+}
+
+.vote-hover > button{
+	height:100%;
+	padding:8px;
+}
+.video-hover-size > div > *{
+	display:inline;
+}
+.vote-hover > button > span{
+	font-size:15px;
+}
+
+.video-hovering>.vid-hover-size>.artist-hover, 
+.video-hovering>.vid-hover-size>.vote-hover {
+	display:block;
+}
+
+.voted-true.video-hovering-false>.vid-hover-size>.vote-hover{
+	display:block;
+	background-color:transparent;
+}
+/*.voted-true.video-hovering-false>.vid-hover-size>.vote-hover>a>span.vote-count,*/
+.voted-true.video-hovering-false>.vid-hover-size>.vote-hover>iframe.fb-share-btn
+{
+	display:none;
+}
+.countdown-block {
+	display: inline;
+}
+
+.countdown-block>h2{
+	padding: 5px;
+	margin: 0px;
+}
+
+.countdown-colon {
+	display: inline;
+}
+
+.countdown-colon>h2{
+	padding-top: 5px;
+	padding-bottom:5px;
+}	
+
+/*ActiveArtist Panel*/
+#active-artist-panel{
+	position:fixed;
+	width:250px;
+	padding-top:60px;
+}
+
+#active-artist-panel > div.panel > div.panel-heading > a{
+	font-size:18px;
+}
+
+a.link:hover{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.circle-img{
+	border-radius:100%;
+	width:65px;
+	height:65px;
+	padding-bottom:5px;
+}
+iframe.twt-follow-btn{
+	width:60px;
+	height:20px;
+	vertical-align:bottom;
+	display:inline;
+}
+iframe.fb-like-btn{
+	width:50px;
+	height:20px;
+	vertical-align:bottom;
+	display:inline;
+}
+iframe.fb-share-btn{
+	width:60px;
+	height:20px;
+	vertical-align:bottom;
+	display:inline;
+}
+
+.vote-hover > iframe.fb-share-btn{
+	margin:10px;
+}
+.past-entry{
+	margin-top:2px;
+	margin-bottom:2px;
+}
+#no-results{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+/*ActiveArtistMobileView*/
+#mobile-active-artist{
+	max-height:160px;
+}
+#mobile-active-artist > *{
+	display:inline;
+}
+#mobile-active-artist-brand{
+	padding-top:3%;
+	padding-bottom:3%;
+	display:inline;
+}
+#mobile-active-artist-brand > *{
+	color:#9d9d9d;
+}
+#mobile-social-net > *{
+	padding:5px;
+}
+#mobile-video-tbs > *
+{
+	padding:5px;
+	display:inline;
+}
+.video-tb,
+.video-tb > .embed-responsive,
+.video-tb > .embed-responsive > .embed-responsive-item{
+	height:81px;
+	width:144px;
+	display:inline;
+}
+.mobile-active-artist-div,
+.mobile-active-artist-div > *{
+	display:inline;
+}
+#mobile-social-net > iframe.twt-follow-btn{
+	width:70px;
+	height:30px;
+	vertical-align:middle;
+	display:inline;
+}
+#mobile-social-net > iframe.fb-like-btn{
+	width:60px;
+	height:30px;
+	vertical-align:middle;
+	display:inline;
+}
+/*ArtistsView*/
+.artist-row{
+	margin-top:5px;
+	margin-bottom:5px;
+	min-height:100px;
+}
+.artist-link{
+	font-weight:bold;
+	font-size:18px;
+}
+.artist-img{
+	height:100%;
+	width:100%;
+	min-height:50px;
+	max-height:100px;
+	min-width:50px;
+	max-width:100px;
+	border-radius:100%;
+}
+
+/*Facebook Modal*/
+.fb-modal-header{
+	background-color:#4c66a4;
+	border-radius:4px 4px 0px 0px;
+}
+.fb-modal-header > .modal-title{
+	color:white;
+}
+.fb-modal-header > *{
+	display:inline;
+}
+#modal-close:hover{
+	color:black;
+	cursor:pointer;
+}
+#fb-login-btn{
+	background-color:#4c66a4;
+}
+/*animation*/
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+.animate-view.ng-enter        { animation:slideInRight 0.5s both ease-in; }
+.animate-view.ng-leave        { animation:slideOutLeft 0.5s both ease-in; }

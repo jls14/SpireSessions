@@ -1,0 +1,146 @@
+/* Put your css in here */
+html {
+	background-color: #eee;
+}
+
+#body {
+	min-width: 300px;
+	background-color: inherit;
+}
+
+#spire-body {
+	margin-top:50px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1050px;
+}
+
+#spire-nav {
+	max-width: 1050px;
+}
+
+#session-countdown {
+	text-align: center;
+}
+
+#session-videos-body {
+	max-width: 800px;
+}
+
+.session-video {
+	padding: 2px;
+	margin: 10px;
+}
+
+.youtube-video {
+	padding: 2px;
+	background-color: #222;
+	margin: 2px;
+	border-radius: 5px;
+	width:244px;
+}
+
+.vote-count{
+	background-color:#333;
+	color:white;
+	border-radius:8px;
+	padding:4px
+}
+
+.vid-hover-size{
+	border-radius: 2px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	min-width:150px;
+	height: 45px;
+	width: 75%;
+}
+
+.vote-hover, 
+.artist-hover {
+	display:none;
+	background-color:#fff;
+	border-color:#fff;
+	border-radius:5px;
+	border-width:1px;
+	height:100%;
+	padding:2px;
+	margin:2px;
+}
+
+.artist-link,
+.vote-link{
+	line-height:43px;
+	font-size:20px;
+	vertical-align:middle;
+}
+
+.vote-link > .glyphicon{
+	font-size:25px;
+	vertical-align:middle;
+}
+
+.vote-link:hover{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.artist-hover > .artist-link > img{
+	height:35px;
+	width:35px;
+	border-radius:100px;
+}
+
+.vote-hover > button{
+	height:100%;
+	padding:8px;
+}
+
+.vote-hover > button > span{
+	font-size:20px;
+}
+
+.video-hovering>.vid-hover-size>.artist-hover, 
+.video-hovering>.vid-hover-size>.vote-hover {
+	display:block;
+}
+
+.countdown-block {
+	display: inline;
+}
+
+.countdown-block>h2 {
+	padding: 5px;
+	margin: 0px;
+}
+
+/*admin*/
+.admin-edit > .list-group > .list-group-item{
+	width:100%;
+}
+.admin-input-group > span.label-addon {
+	width:150px;
+}
+.admin-input-group{
+	width:100%;
+}
+.list-group-item.admin-edit-active{
+	background-color:#d9edf7;
+}
+
+/*animation*/
+/* slide in from the bottom */
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+.animate-view.ng-enter        { animation:slideInRight 0.5s both ease-in; }
+.animate-view.ng-leave        { animation:slideOutLeft 0.5s both ease-in; }

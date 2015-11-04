@@ -1,0 +1,27 @@
+ <div class="navbar navbar-inverse navbar-fixed-top">
+  <div id="spire-nav" class="center-block">
+    <div class="navbar-header">
+        <button  class="navbar-toggle collapsed" data-toggle="collapsed"  ng-click="toggleCollapsed()"> 
+          <span class="sr-only">menu</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+        <a class="navbar-brand" href="#/">SpireAdmin</a>
+    </div>
+    <div class="collapse navbar-collapse" collapse="isCollapsed">
+        <div class="nav-collapse">
+          <ul class="nav navbar-nav navbar-left">
+              <li ng-repeat="link in ::navLinks" ng-if="showNavLinks()">
+                <a ng-href="{{::link.href}}" ng-click="collapse();">{{::link.title}}</a>
+              </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#" ng-click=" logout(); collapse();">Sign Out</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div><!--navbar-->

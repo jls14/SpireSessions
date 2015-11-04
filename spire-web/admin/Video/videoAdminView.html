@@ -1,0 +1,63 @@
+<div id="video-admin" class="center-block" ng-if="showView();">
+	<div class="row">
+		<div class="admin-edit col-md-6">
+			<h3>Video List</h3>
+			<div class="list-group">
+	 			<button type="button" class="{{isActiveClass(createVideo.id);}} list-group-item" ng-click="setVideoToEdit(createVideo)">
+	 				<span class="glyphicon glyphicon-plus"></span>
+	 				Create New Video
+	 			</button>
+				<button type="button" class="{{isActiveClass(sess.id);}} list-group-item" ng-click="setVideoToEdit(sess);" ng-repeat="sess in videos" >{{::sess.id + "-" + sess.name}}</button>
+			</div>
+			<div class="list-group center-block" ng-if="isListLoading">
+				<img class="center-block" height="40" src="../common/images/lg-snake-loader.gif"/>
+			</div>
+		</div>
+		<div class="admin-edit col-md-6">
+			<h3>Edit Video</h3>
+			<ul class="list-group">
+				<li class="list-group-item" ng-repeat="fieldKey in  fieldsOrder" ng-init="field = fields[fieldKey]" ng-if="fieldKey != 'file' || (fieldKey == 'file' && isFileValid())">
+					<div ng-if="field.tag == 'p' && videoToEdit[fieldKey] != null">
+						<span class="badge">{{field.label + ": " + videoToEdit[fieldKey]}}</span>
+					</div>
+					<div class="input-group admin-input-group" ng-if="field.tag != 'p'">
+						<span class="input-group-addon label-addon">{{field.label}}</span>
+						<input ng-if="field.tag == 'input' && field.type != 'checkbox'" class="form-control" ng-model="videoToEdit[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}"></input>
+						<span  ng-if="field.tag == 'input' && field.type == 'checkbox'" class="input-group-addon">
+							<input ng-model="videoToEdit[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}"></input>
+						</span>
+						<select ng-if="field.tag == 'select'" class="form-control" ng-model="videoToEdit[fieldKey]" ng-options="opt.id as opt.id + '-' + opt.name for opt in field.options">
+							<option value="">Select {{::field.label}}</option>
+						</select>
+						<span ng-if="field.tag == 'a'" class="input-group-btn">
+							<a class="btn btn-default" ng-href="{{::videoToEdit[fieldKey]}}">
+								<span class="glyphicon glyphicon-download"></span>
+								Download Video File
+							</a>
+						</span>	
+					</div>
+				</li>
+				<li class="list-group-item">
+					<button class="btn btn-success" ng-click="updateVideo();">Submit</button>
+					<button class="btn btn-danger"  ng-click="deleteVideo();" ng-if="!isNewVideo();">Remove</button>
+					<button class="btn btn-info"    ng-click="previewVideo()">
+						<span ng-if="!showPreview">Show Video</span>
+						<span ng-if="showPreview">Hide Video</span>
+					</button>
+				</li>
+			</ul>
+			<div ng-if="showPreview">
+				<div class="panel panel-danger" ng-if="videoToEdit.iframe_url.length == 0" class="admin-video-preview-error">
+					<div class="panel-heading">
+						Please enter a valid Iframe URL
+					</div>
+				</div>
+				<div>
+					<div class="embed-responsive embed-responsive-16by9">
+    					<iframe class="embed-responsive-item" ng-src="{{sanitize(videoToEdit.iframe_url)}}" onplay="alert('hey')"></iframe>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

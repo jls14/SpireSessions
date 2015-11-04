@@ -1,0 +1,36 @@
+<div id="artist-admin" class="center-block" ng-if="showView();">
+	<div class="row">
+		<div class="admin-edit col-md-6">
+			<h3>Artist List</h3>
+			<div class="list-group">
+	 			<button type="button" class="{{isActiveClass(createArtist.id);}} list-group-item" ng-click="setArtistToEdit(createArtist)">
+	 				<span class="glyphicon glyphicon-plus"></span>
+	 				Create New Artist
+	 			</button>
+				<button type="button" class="{{isActiveClass(sess.id);}} list-group-item" ng-click="setArtistToEdit(sess);" ng-repeat="sess in artists" >{{::sess.id + "-" + sess.name}}</button>
+			</div>
+			<div class="list-group center-block" ng-if="isListLoading">
+				<img class="center-block" height="40" src="../common/images/lg-snake-loader.gif"/>
+			</div>
+		</div>
+		<div class="admin-edit col-md-6">
+			<h3>Edit Artist</h3>
+			<ul class="list-group">
+				<li class="list-group-item" ng-repeat="fieldKey in  fieldsOrder" ng-init="field = fields[fieldKey]">
+					<div ng-if="field.tag == 'p' && artistToEdit[fieldKey] != null"><label class="badge">{{field.label + ": " + artistToEdit[fieldKey]}}</div>
+					<div class="input-group admin-input-group" ng-if="field.tag == 'input'">
+						<span class="input-group-addon label-addon">{{field.label}}</span>
+						<input ng-if="field.type != 'checkbox'" class="form-control" ng-model="artistToEdit[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}"></input>
+						<span  ng-if="field.type == 'checkbox'" class="input-group-addon">
+							<input ng-model="artistToEdit[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}"></input>
+						</span>
+					</div>
+				</li>
+				<li class="list-group-item">
+					<button class="btn btn-success" ng-click="updateArtist();">Submit</button>
+					<button class="btn btn-danger"  ng-click="deleteArtist();" ng-if="!isNewArtist();">Remove</button>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

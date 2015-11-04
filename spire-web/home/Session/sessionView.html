@@ -1,0 +1,42 @@
+<div id="current-sessions" ng-controller="SessionCtrl as sess" ng-click="clearActiveArtist();">
+  <div  id="session-videos-body" class="center-block container">
+  	<div class="row">
+  		<div class="col-md-2"></div>
+  		<div class="col-md-8">
+		    <div class="row">
+		    	<div class="col-sm-12" ng-if="winningVideoIndex == null">
+		    		<countdown-view></countdown-view>
+		    	</div>
+		    	<div class="col-sm-12" ng-if="winningVideoIndex != null">
+					<h2 class="center-block">Winning Session Video!</h2>
+			  		<video-view video="videos[winningVideoIndex]" 
+					    	   artist="artistsHash[videos[winningVideoIndex].artist_id]"
+					    		index="winningVideoIndex">
+					</video-view>
+		    		<h2 class="center-block">This Session is Finished!</h2>
+		    		<h2 class="center-block">Check Back Soon!</h2>
+		    	</div>
+		    </div>
+		    <div class="row" ng-repeat="pair in indexPairs">
+		    	<div class="col-sm-6" ng-init="vid0 = videos[pair[0]]">
+		    		<video-view video="vid0" 
+		    				   artist="artistsHash[vid0.artist_id]"
+		    					index="pair[0]">
+		    		</video-view>
+		    	</div>
+		    	<div class="col-sm-6" ng-init="vid1 = videos[pair[1]]">
+		    		<video-view ng-if="pair[1] != false" 
+		    					video="vid1" 
+		    					artist="artistsHash[vid1.artist_id]"
+		    					index="pair[1]">
+		    		</video-view>
+		    	</div>
+		    </div>
+		</div>
+		<div class="col-md-2">
+			<active-artist-view></active-artist-view>
+		</div>
+	</div>
+  </div>
+</div>
+<active-artist-mobile-view></active-artist-mobile-view>

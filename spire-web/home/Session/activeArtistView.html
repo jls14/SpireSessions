@@ -1,0 +1,41 @@
+<div class="hidden-sm" id="active-artist-panel" ng-click="activeArtistPanelClick()" ng-show="showActiveArtist()">
+	<div class="panel panel-default">
+		<div class="panel-heading text-center">
+			<h4><b>{{activeArtist.name}}</b></h4>
+		</div>
+		<div class="panel-body">
+			<img class="circle-img center-block" ng-src="{{activeArtist.img_url}}"></img>
+			
+			<p class="text-center">{{activeArtitst.area}}</p>
+			<p class="text-center">{{activeArtist.bio}}</p>
+			
+			<hr>
+			
+			<div class="social-net-div text-center">
+				<span ng-if="activeArtist.twitter_id != ''">
+					<iframe ng-src="{{activeArtist.getTwtFollowSrc()}}"
+		  					class="twt-follow-btn"
+		 					allowtransparency="true"
+		  					frameborder="0"
+		  					scrolling="no">
+					</iframe>
+			    </span>
+				<span ng-if="activeArtist.facebook_id != ''">
+					<iframe ng-src="{{activeArtist.getFbLikeSrc()}}"
+							class="fb-like-btn"
+							allowtransparency="true"
+		  					frameborder="0"
+		  					scrolling="no"></iframe> 
+	  			</span>
+			</div>
+			<hr>
+			<h4 class="text-center">Past Entries</h4>
+			<div class="embed-responsive embed-responsive-16by9 past-entry" ng-repeat="video in activeArtist.pastEntries | limitTo:2">
+    			<iframe class="embed-responsive-item" ng-src="{{video.videoLink}}"></iframe>
+  			</div>
+  			<div ng-if="!activeArtist.pastEntries.length">
+  				<h5 class="text-center" id="no-results">No Results</h5>
+  			</div>	
+  		</div>		
+	</div>
+</div>

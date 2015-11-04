@@ -1,0 +1,74 @@
+[
+	{
+        "id": 1,
+        "artistName": "Dalmatian",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    },
+    {
+        "id": 2,
+        "artistName": "Dalmatian2",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    },
+    {
+        "id": 3,
+        "artistName": "Dalmatian3",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    },
+    {
+        "id": 4,
+        "artistName": "Dalmatian4",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    },
+    {
+        "id": 5,
+        "artistName": "Dalmatian5",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    },
+    {
+        "id": 6,
+        "artistName": "Dalmatian6",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    },
+    {
+        "id": 7,
+        "artistName": "Dalmatian7",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    },
+    {
+        "id": 8,
+        "artistName": "Dalmatian8",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",	
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    },
+    {
+        "id": 9,
+        "artistName": "Dalmatian9",
+        "artistArea": 1,
+        "artistBio": "blah blah blah blah.....",
+        "artistPic": "common/images/artist.jpg",
+        "artistFb": "https://www.facebook.com/dalmatianband"
+    }
+]

@@ -1,0 +1,53 @@
+ <div class="navbar navbar-inverse navbar-fixed-top">
+  <div id="spire-nav" class="center-block">
+    <div class="navbar-header">
+        <button  class="navbar-toggle collapsed" data-toggle="collapsed"  ng-click="toggleCollapsed()"> 
+          <span class="sr-only">menu</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> 
+        <a class="navbar-brand" href="#/">SpireSessions</a>
+    </div>
+    <div class="collapse navbar-collapse" collapse="isCollapsed">
+        <div class="nav-collapse">
+          <ul class="nav navbar-nav navbar-left">
+              <li ng-repeat="link in navLinks">
+                <a class="link" ng-href="{{::link.href}}">{{::link.title}}</a>
+              </li>
+          </ul>
+          <!--div class="btn-group" role="group" aria-label="">
+            <button type="button" class="btn btn-default navbar-btn">Current Session</button>
+            <button type="button" class="btn btn-default navbar-btn">Artists</button>
+          </div-->
+          <ul class="nav navbar-nav navbar-right">
+              <!-- li>
+                <a ng-click="collapse()">
+                	<div class="fb-login-button" data-max-rows="4" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div>
+                </a>
+              </li-->
+              <li ng-if="!isUserArtist()">
+                <a class="link" ng-click="openSignInUpModal('up'); collapse();">Artist Sign Up</a>
+              </li>
+              <li ng-if="!isConnected">
+                <a  class="link" ng-click="openSignInUpModal('in'); collapse();">Login</a>
+              </li>
+              <li ng-if="isConnected" class="dropdown" dropdown on-toggle="toggled(open)">
+                  <a href id="simple-dropdown" dropdown-toggle>
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                    My Profile
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="simple-dropdown">
+                    <li ng-repeat="artist in artists">
+                      <a class="link" ng-href="#/artists-edit/{{artist.id}}" ng-click="collapse();">Edit {{artist.name}}</a>
+                    </li>
+                    <li>
+                       <a class="link" ng-click="fbLogout(); collapse();">Logout</a>
+                    </li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div><!--navbar-->

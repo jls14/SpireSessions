@@ -1,0 +1,14 @@
+<!--sessionChoiceView.html-->
+<div class="row">
+  	<div class="col-md-6" ng-repeat="session in allSessions">
+		<a  ng-href="#/session/{{session.id}}" 
+			class="thumbnail center-block spire-thumbnail"
+			style="">
+			<img ng-src="{{session.img_url}}" alt="Image Not Available"></img>
+			<div class="caption">
+				<h3>{{session.name}}</h3>
+				<p>{{session.description}}</p>
+			</div>
+		</a>
+	</div>
+</div>

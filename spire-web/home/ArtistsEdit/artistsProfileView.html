@@ -1,0 +1,18 @@
+<!--artistsProfileView.html-->
+<div ng-controller="EditProfileCtrl">
+	<ul class="list-group">
+		<li class="list-group-item" ng-repeat="fieldKey in  fieldsOrder" ng-init="field = fields[fieldKey]">
+			<div class="input-group admin-input-group" ng-if="field.tag == 'input'">
+				<span class="input-group-addon label-addon">{{field.label}}</span>
+				<input ng-if="field.type != 'checkbox'" class="form-control" ng-model="artistToEdit[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}" ng-disabled="field.type == 'disabled'"></input>
+				<span  ng-if="field.type == 'checkbox'" class="input-group-addon">
+					<input ng-model="artistToEdit[fieldKey]" placeholder="{{field.label}}" type="{{field.type}}"></input>
+				</span>
+			</div>
+		</li>
+		<li class="list-group-item">
+			<button class="btn btn-success" ng-click="updateArtist();">Submit</button>
+			<!--button class="btn btn-danger"  ng-click="deleteArtist();" ng-if="!isNewArtist();">Remove</button-->
+		</li>
+	</ul>
+</div>
